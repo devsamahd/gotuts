@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-
-import "rsc.io/quote"
+import (
+	"fmt"
+	"log"
+	"net/http"
+)
 
 func main() {
-    fmt.Println(quote.Go())
+    fmt.Println("hello")
 }
